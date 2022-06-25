@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://cdn.stocksnap.io/img-thumbs/960w/PZ0Z7K0JRR.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{ margin-top: 20px;
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li.active a{
+    background-color: white ;
+    color: rgb(8, 82, 243);
+}
+ul li a{
+    text-decoration:none ;
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border: 1px solid rgb(226, 16, 114);
+}
+ul li a:hover{
+    background-color: white;
+    transition: 1s ease;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.head{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: white;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.btn{
+    border: 1px solid rgb(226, 16, 114);
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    transition: 1s ease;
+    color: black;
+}
+.user{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.user{
+    border: 1px solid black hidden;
+}
+.mail{
+    padding: 5px 8px;
+    color: lemonchiffon;    
+}
+.pwd{
+    color: lemonchiffon;
+}
+ul li ul li{
+    display: none;
+    background-color: black ;
+    border: none;
+    color: white;
+}
+ul li:hover ul li{
+    display: block;
+    padding: 10px;
+    background-position:absolute;
+    
+}
+ul li ul li a{
+    color: white;
+    background-color: green;
+}
+.phone{
+    -webkit-user-drag: auto;   
+    height: 500px;
+    width: auto;
+}
+div.phone img{
+    position: absolute;
+    height: 300px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    
+}
+.lp{    
+    height: 500px;
+    width: auto;   
+}
+div.lp img{
+    position: absolute;
+    height: 300px;
+    top: 125%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    }
+.ot{    
+    height: 500px;
+    width: auto;    
+}
+div.ot img{
+    position: absolute;
+    height: 300px;
+    top: 210%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+ }
+ .head1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=30&auto=format&w=600&h=400&fit=crop&dpr=2);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.head2{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i.pinimg.com/474x/b6/fc/9f/b6fc9f84784e3f446ac5946eecc1bfd8.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
